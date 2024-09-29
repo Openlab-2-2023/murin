@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color:rgb(233, 224, 224);">
+<style>
+    .image-container {
+        text-align: center; 
+    }
+    .image-container img {
+        display: inline-block;
+        max-width: 30%; 
+        margin: 20px; 
+    }
+</style>
+
+<body >
 <div align="center"><h1><u>ŽIVOTOPIS</u></h1></div> <!-- Nadpis zarovnany do stredu tagom <div align="center"> a tag <u> znamena podčiarknutie -->
 <div align="center"><h2><i>Cristiano Ronaldo dos Santos Aveiro</i></h2></div>
-<div align="left"><h3><u><i>Informacie</i></u></h3></div> <!-- tag <i> znamena šikme pismo-->
-<div align="right"><img src="ronaldo.jpg" alt="RONALDO" height="50" weight="150"> </div> <!-- tu je obrazok Ronalda-->
-<p>Volam sa Cristiano Ronaldo.Mam 39 rokov.Pochadzam z mesta Funchal ktore leži na portugalskom ostrove Madeira.</p>
+<div class="obr">
+    <img src="ronaldo.jpg" alt="" height="400" width="300">
+</div>
+<div align="left"><h3><u><i>Informacie</i></u></h3></div> <!-- tag <i> znamena šikme pismo--> 
+<p>Volam sa Cristiano Ronaldo.Mam 39 rokov.Pochadzam z mesta Funchal ktore leži na portugalskom ostrove Madeira.</p> 
 <p>Som najmladsie dieťa Marie Dolores dos Santos Aveiroa a Joseho Dinis Aveiro.Mam 2 sestry a 1 brata.</p>
 <p>Mam ženu a 4 deti.Aktualne byvam v Saudskej Arabii.Z fudbalom som zacal ako 15ročny.</p>
 <p>Ziskal som 33 trofeji.Moja prezyvka je CR7.</p>
@@ -34,6 +48,9 @@
   <li>Al-Nassr</li>
 
 </ul></div>
+<div class="znak">
+<img src="portugalsky znak.jpg" alt="" height="400" width="400">
+</div>
 <div align="left"><h3><i>Roky Prestupov</i></h3></div>  <!-- vytvorena tabulka v ktorej su zaznačene Ronaldove roky prestupov-->
 <table>
     <tr>
@@ -72,10 +89,11 @@
       </tr>
     </tr>
     </table>
+    <div class="off">
     <div align="left"><h4><u><b><i>Vzdelanie</i></b></u></h4></div>
     <p>Základna škola na Madeire - do 12 rokov</p>
     <p>Foodbalova Akademia v Lisabone - od 13 do 18 rokov</p>
-    <div align="right"><img src="LOPTA.jpg" alt="Zlata lopta"></div> <!-- tu je obrazok Zlatej lopty zarovnany do prava tagom <div align="right">-->
+    </div>
     <div align="left"><h3><b>Uspechy</b></h3></div>
     <div align="left"> <! – Lists – >  <!-- tu su v odražkach napisane Ronaldove uspechy-->
     <ul>
@@ -99,5 +117,13 @@
         <li>najviac strelenych golov (viac ako 900)</li>
         
     </ul>
-   </body>
+        
+        <div class="image-container">
+         <img src="LOPTA.jpg" height="300" width="275" alt="Zlata lopta"> 
+         <img src="seria a.jpg" height="300" width="275" alt="logo Serie A">
+         <img src="900.jpg" height="300" width="275" alt="900 golov">
+        </div>
+    
+        <p><b>_______________________________________________________________________________________________________________________________________________________________________________________</b></p>
+ </body>
 </html>
