@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.searchBar {
+    padding: 50px 0;
+    text-align: center;
+    width: 250px;
+}
+
+.searchBar input {
+    width: 200%;
+    padding: 10px;
+    font-size: 16px;
+    margin: right;
+    border-radius: 20px 0px 0px 20px;
+}
+.lupa img{
+  width:25px;
+  height: auto;  
+    margin-left:100px;
+    border:solid  2px;
+    border-color:black
+    border-radius: 20px;
+}
+
+.Ronaldo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.videoInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 9px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.text h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.text p {
+    color: gray;
+    font-size: 13px;
+}
+.youtube-icon {
+    display: flex;
+    justify-content: center; /* Horizontálne vycentrovanie */
+    align-items: center; /* Vertikálne vycentrovanie */
+    width: 50px; /* Prispôsobte veľkosť podľa potreby */
+    height: 50px;
+    margin-left: -40px;
+    margin: 10px; /* Rozostup okolo ikony */
+}
+
+.youtube-icon svg {
+    fill: red; /* Farba ikony YouTube */
+    width: 100%; /* Zaberá celú šírku kontajnera */
+    height: 100%; /* Zaberá celú výšku kontajnera */
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left:-240px;
+    align-items: center;
+}
+.voice-search-icon {
+    width: 40px; /* Nastavte veľkosť ikony */
+    height: 40px;
+    margin-left: 10px; /* Rozostup medzi ikonou a vyhľadávacím poľom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:right;
+    cursor: pointer; /* Zmení kurzor na ruku pri hover */
+}
+
+.voice-search-icon svg {
+    fill: #666; /* Farba ikony */
+    width: 100%; /* Zaberá celú šírku kontajnera */
+    height: 100%; /* Zaberá celú výšku kontajnera */
+}
+.sidebar {
+    width: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    z-index: 2;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul li a img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.sidebar nav ul li a:hover img {
+    transform: scale(1.2);
+}
